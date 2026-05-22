@@ -6,6 +6,6 @@ app = FastAPI()
 def hello():
     return {'message':'Hello World'}
 
-@app.get('/about')
+@app.GET('/about')
 def about():
     return {'message':'Campusx'}
