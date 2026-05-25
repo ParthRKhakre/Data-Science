@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from fastapi import FastAPI 
 import json
 
@@ -23,3 +24,16 @@ def view():
     data = load_data()
     return data
     
+=======
+from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get("/")
+def hello():
+    return {'message':'Hello World'}
+
+@app.get('/about')
+def about():
+    return {'message':'Campusx'}
+>>>>>>> 939b014ab5f4062bad4009b149a9e9be714c91fd
