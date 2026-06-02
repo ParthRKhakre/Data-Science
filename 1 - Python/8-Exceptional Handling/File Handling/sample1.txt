@@ -1,5 +1,4 @@
 Hello
 How are you ? 
 Multiple line written
- Hmm So this is new commment and lines added to sample1.txt
 Hmm So this is new commment and lines added to sample1.txt
