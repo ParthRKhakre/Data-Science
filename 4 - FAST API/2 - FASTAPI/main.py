@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 from fastapi import FastAPI 
 import json
 
@@ -6,9 +6,7 @@ app = FastAPI()
 
 def load_data():  
     with open('patients.json','r') as f:
-# Above line of code loads the data from a json file in read only mode  
-        data = json.load(f)
-# json.load(f)convert JSON file data into a python dictionary/list. 
+        data = json.load(f) 
     return data    
 
 @app.get("/")
@@ -24,7 +22,7 @@ def view():
     data = load_data()
     return data
     
-=======
+
 from fastapi import FastAPI
 
 app = FastAPI()
@@ -36,4 +34,3 @@ def hello():
 @app.get('/about')
 def about():
     return {'message':'Campusx'}
->>>>>>> 939b014ab5f4062bad4009b149a9e9be714c91fd
