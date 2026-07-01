@@ -1,0 +1,5 @@
+1.Step 1
+uv venv   // it setup's the environment for the project
+create a requirement.txt file and add the required dependencies
+
+
