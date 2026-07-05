@@ -3,7 +3,6 @@ from dotenv import load_dotenv
 import numpy as np 
 from sklearn.metrics.pairwise import cosine_similarity
 
-
 load_dotenv()
 
 embedding = HuggingFaceEmbeddings(
