@@ -1,8 +1,8 @@
 from fastapi import FastAPI
 
-
 app = FastAPI()
 
 @app.get("/")
 def home():
-    return {"message":"Hello From vern"}
+    return {"message" : "Environment Activate"}
+
